@@ -1,0 +1,7 @@
+.vscode/
+.php_env/
+vendor/
+
+
+.to_excl
+*.py
