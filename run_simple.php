@@ -1,8 +1,5 @@
 <?php
 
-error_reporting(E_ERROR);
-require __DIR__ . '/vendor/autoload.php';
-
 
 use App\SimpleLinearRegression;
 use App\Utils\Utils;
@@ -12,7 +9,6 @@ use App\Utils\AIUtils;
 
 list($X, $Y) = Utils::load_csv_data(__DIR__ . '/simple.csv', simpleLR:true);
 
-// $count = 0;
 $model = new SimpleLinearRegression();
 do {
 # code...

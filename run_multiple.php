@@ -1,8 +1,5 @@
 <?php
 
-error_reporting(E_ERROR);
-require __DIR__ . '/vendor/autoload.php';
-
 use App\MultipleLinearRegression;
 use App\Utils\Utils;
 use App\Utils\AIUtils;
@@ -11,7 +8,6 @@ use App\Utils\AIUtils;
 
 list($X, $Y) = Utils::load_csv_data(__DIR__ . '/multiple.csv');
 
-// $count = 0;
 do {
 # code...
     list($X_train, $X_test, $Y_train, $Y_test) = Utils::test_train_split($X, $Y, 0.2);
