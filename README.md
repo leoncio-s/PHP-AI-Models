@@ -2,7 +2,7 @@
 
 ![PHP](https://img.shields.io/badge/PHP-8.1%2B-blue)
 ![Status](https://img.shields.io/badge/status-educational-green)
-![License](https://img.shields.io/badge/license-open--source-lightgrey)
+![License](https://img.shields.io/badge/license-mit-lightgrey)
 
 This project is an educational experiment focused on **building Artificial Intelligence and Machine Learning algorithms from scratch using pure PHP**, without relying on external AI/ML frameworks.
 
