@@ -1,5 +1,8 @@
 <?php
 
+error_reporting(E_ERROR);
+require __DIR__ . '/vendor/autoload.php';
+
 use App\MultipleLinearRegression;
 use App\Utils\Utils;
 use App\Utils\AIUtils;
